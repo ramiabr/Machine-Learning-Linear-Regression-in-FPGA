@@ -1,0 +1,16 @@
+
+## linear_regression.c is the main Kernel that will perform Linear regression algorithm and return final weights 
+## linear_regression.h contains function definition and needs to be included in driver program 
+
+## testbench.c is the driver program that will parse the Training Data from file and feed it into Driver program 
+
+The Code have been optimized for running in Xilinx FPGA Kintex-7 (xc7k160tfbg484-2), 
+
+Below is the tabulation of how much speedup we get by running algorithm in a Laptop vs Kintex 7 
+
+            Laptop        Kintex 7
+Run Time     404ms        55.464ms
+
+*Both Runs have been completed with 576 Samples, 2000 iterations  
+*Kintex 7 is running at 10ns clock (100 MHz)
+*Laptop has Intel(R) Core(TM) i3-5020U CPU @2.20GHz @2.19GHz and 4GB RAM
